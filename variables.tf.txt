@@ -1,0 +1,21 @@
+variable "access_key" {
+  default = "AKIAIKGSMZI4YAW4GMSQ"
+}
+variable "secret_key"{
+  default = "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"
+}
+variable "region"{
+  default = "us-west-2"
+}
+variable "bucket" {
+  default = "wildrydes-senthil-497704"
+}
+variable "source" {
+  default = "/usr/bin/terratest"
+}
+variable "etag" {
+  default = "wildrydesimage"
+}
+variable "acl" {
+  default = "public-read"
+}
